@@ -1,0 +1,10 @@
+{
+    "name": "speak",
+    "version": "0.8.0",
+    "manifest_version": 2,
+    "description": "Speak the selectet text",
+    "content_scripts": [{
+      "matches": [ "http://*/*", "https://*/*" ],
+      "js": [ "speak.js" ]
+    }]
+  }
