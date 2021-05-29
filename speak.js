@@ -5,7 +5,7 @@
             selectedStr = window.getSelection().toString();
             if (selectedStr !== '' && selectedStr !== '\n') {
                 speak(selectedStr);
-                console.log(selectedStr);
+//                console.log(selectedStr);
             }
         }
     });
